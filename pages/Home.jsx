@@ -1,13 +1,21 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 
+import patternHeroHome from "../assets/home/desktop/bg-pattern-hero-home.svg"
+import imageHeroPhone from "../assets/home/desktop/image-hero-phone.png" 
+import iconRightArrow from "../assets/shared/desktop/icon-right-arrow.svg" 
+import patternSmallCircle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
+import illustrationPassionate from "../assets/home/desktop/illustration-passionate.svg" 
+import illustrationResourceful from "../assets/home/desktop/illustration-resourceful.svg" 
+import illustrationFriendly from "../assets/home/desktop/illustration-friendly.svg" 
+
 export default function Home(){
     return(
         <div className="home">
             <div className="home-intro">
                 <img 
-                    src="../assets/home/desktop/bg-pattern-hero-home.svg" 
-                    alt="SVG background oval" 
+                    src={patternHeroHome}
+                    alt="background oval" 
                     className="home-oval"
                 />
 
@@ -30,7 +38,7 @@ export default function Home(){
                 </div>
 
                 <img 
-                    src="../assets/home/desktop/image-hero-phone.png" 
+                    src={imageHeroPhone}
                     className="home-hero-phone"
                 />
             </div>
@@ -43,7 +51,7 @@ export default function Home(){
                         <p>
                             VIEW PROJECTS <span>
                                 <img 
-                                    src="../assets/shared/desktop/icon-right-arrow.svg" 
+                                    src={iconRightArrow}
                                 />
                             </span>
                         </p>
@@ -57,7 +65,7 @@ export default function Home(){
                         <p>
                             VIEW PROJECTS <span>
                                 <img 
-                                    src="../assets/shared/desktop/icon-right-arrow.svg" 
+                                    src={iconRightArrow}
                                 />
                             </span>
                         </p>
@@ -71,7 +79,7 @@ export default function Home(){
                         <p>
                             VIEW PROJECTS <span>
                                 <img 
-                                    src="../assets/shared/desktop/icon-right-arrow.svg" 
+                                    src={iconRightArrow}
                                 />
                             </span>
                         </p>
@@ -82,12 +90,12 @@ export default function Home(){
             <div className="illustrations">
                 <div className="illustration">
                     <img 
-                        src="../assets/shared/desktop/bg-pattern-small-circle.svg"
+                        src={patternSmallCircle}
                         className="illustrations-background"
                     />
 
                     <img 
-                        src="../assets/home/desktop/illustration-passionate.svg" 
+                        src={illustrationPassionate}
                         className="passionate-illustration"
                     />
 
@@ -103,12 +111,12 @@ export default function Home(){
 
                 <div className="illustration">
                     <img 
-                        src="../assets/shared/desktop/bg-pattern-small-circle.svg"
+                        src={patternSmallCircle}
                         className="illustrations-background resourceful-circle"
                     />
                     
                     <img 
-                        src="../assets/home/desktop/illustration-resourceful.svg" 
+                        src={illustrationResourceful}
                         className="resourceful-illustration"
                     />
 
@@ -124,12 +132,12 @@ export default function Home(){
 
                 <div className="illustration">
                     <img 
-                        src="../assets/shared/desktop/bg-pattern-small-circle.svg"
+                        src={patternSmallCircle}
                         className="illustrations-background friendly-circle"
                     />
 
                     <img 
-                        src="../assets/home/desktop/illustration-friendly.svg" 
+                        src={illustrationFriendly}
                         className="friendly-illustration"
                     />
 

@@ -1,13 +1,21 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+
+import callToAction from "../assets/shared/desktop/bg-pattern-call-to-action.svg" 
+import logoLight from "../assets/shared/desktop/logo-light.png" 
+import iconFacebook from "../assets/shared/desktop/icon-facebook.svg"
+import iconYoutube from "../assets/shared/desktop/icon-youtube.svg"
+import iconTwitter from "../assets/shared/desktop/icon-twitter.svg"
+import iconPinterest from "../assets/shared/desktop/icon-pinterest.svg"
+import iconInstagram from "../assets/shared/desktop/icon-instagram.svg"
  
 export default function Footer(){
     return(
         <footer>
             <div className="get-in-touch-container">
                 <img 
-                    src="../assets/shared/desktop/bg-pattern-call-to-action.svg" 
-                    alt="SVG background three-ovals" 
+                    src={callToAction}
+                    alt="background three-ovals" 
                     className="get-in-touch-img"
                 />
 
@@ -26,7 +34,7 @@ export default function Footer(){
 
             <NavLink to="/">
                 <img 
-                    src="../assets/shared/desktop/logo-light.png" 
+                    src={logoLight}
                     alt="designo logo"
                     className="header-logo"
                 /> 
@@ -58,27 +66,27 @@ export default function Footer(){
 
             <div className="social-media-links">
                 <img 
-                    src="../assets/shared/desktop/icon-facebook.svg"
+                    src={iconFacebook}
                     alt="facebook icon"
                 />
 
                 <img 
-                    src="../assets/shared/desktop/icon-youtube.svg"
+                    src={iconYoutube}
                     alt="youtube icon"
                 />
 
                 <img 
-                    src="../assets/shared/desktop/icon-twitter.svg"
+                    src={iconTwitter}
                     alt="twitter icon"
                 />
 
                 <img 
-                    src="../assets/shared/desktop/icon-pinterest.svg"
+                    src={iconPinterest}
                     alt="pinterest icon"
                 />
 
                 <img 
-                    src="../assets/shared/desktop/icon-instagram.svg"
+                    src={iconInstagram}
                     alt="instagram icon"
                 />
             </div>

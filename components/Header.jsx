@@ -1,5 +1,9 @@
 import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
+
+import logoDark from "../assets/shared/desktop/logo-dark.png" 
+import iconClose from "../assets/shared/mobile/icon-close.svg"
+import iconHamburger from "../assets/shared/mobile/icon-hamburger.svg"
  
 export default function Header(){
     const [showNav, setShowNav] = useState(false)
@@ -13,7 +17,7 @@ export default function Header(){
             <div className="header">
                 <NavLink to="/">
                     <img 
-                        src="../assets/shared/desktop/logo-dark.png" 
+                        src={logoDark}
                         alt="designo logo"
                         className="header-logo"
                     /> 
@@ -22,8 +26,8 @@ export default function Header(){
                 <img 
                     src={
                         showNav
-                            ? "../assets/shared/mobile/icon-close.svg"
-                            : "../assets/shared/mobile/icon-hamburger.svg"
+                            ? iconClose
+                            : iconHamburger
                     }
                     alt={showNav ? "close nav" : "open nav"}
                     onClick={handleNav}
