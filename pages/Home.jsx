@@ -5,6 +5,9 @@ import patternHeroHome from "../assets/home/desktop/bg-pattern-hero-home.svg"
 import imageHeroPhone from "../assets/home/desktop/image-hero-phone.png" 
 import iconRightArrow from "../assets/shared/desktop/icon-right-arrow.svg" 
 import patternSmallCircle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
+import illustrationPassionate from "../assets/home/desktop/illustration-passionate.svg"
+import illustrationResourceful from "../assets/home/desktop/illustration-resourceful.svg"
+import illustrationFriendly from "../assets/home/desktop/illustration-friendly.svg"
 
 export default function Home(){
     return(
@@ -92,7 +95,7 @@ export default function Home(){
                     />
 
                     <img 
-                        src="../assets/home/desktop/illustration-passionate.svg"
+                        src={illustrationPassionate}
                         className="passionate-illustration"
                     />
 
@@ -113,7 +116,7 @@ export default function Home(){
                     />
                     
                     <img 
-                        src="../assets/home/desktop/illustration-resourceful.svg"
+                        src={illustrationResourceful}
                         className="resourceful-illustration"
                     />
 
@@ -134,7 +137,7 @@ export default function Home(){
                     />
 
                     <img 
-                        src="../assets/home/desktop/illustration-friendly.svg"
+                        src={illustrationFriendly}
                         className="friendly-illustration"
                     />
 
