@@ -324,7 +324,7 @@ footer .header-logo{
     position: relative;
 }
 
-.graphic-design{
+.project:last-child{
     margin-bottom: 7.5rem;
 }
 
@@ -427,13 +427,13 @@ footer .header-logo{
 
 /* HOME */
 
-/* WEB DESIGN */
+/* DESIGN PAGE */
 
-.webdesign{
+.design-page{
     position: relative;
 }
 
-.webdesign-intro{
+.design-page-intro{
     position: relative;
     background: #E7816B;
     padding: 6.5625rem 1.5rem;
@@ -441,7 +441,7 @@ footer .header-logo{
     margin-bottom: 6rem;
 }
 
-.webdesign-bg-image{
+.design-page-bg-image{
     position: absolute;
     top: 0%;
     right: 0%;
@@ -449,7 +449,7 @@ footer .header-logo{
     width: 292px;
 }
 
-.webdesign-intro h1{
+.design-page-intro h1{
     margin: 0 0 1.5rem 0;
     color: #FFF;
     font-size: 2rem;
@@ -457,7 +457,7 @@ footer .header-logo{
     line-height: 36px;
 }
 
-.webdesign-intro p{
+.design-page-intro p{
     margin: 0;
     color: #FFF;
     font-size: 0.9375rem;
@@ -465,7 +465,7 @@ footer .header-logo{
     line-height: 25px;
 }
 
-.webdesign-images{
+.design-page-images{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -473,13 +473,13 @@ footer .header-logo{
     margin-bottom: 2.5rem;
 }
 
-.webdesign-images img{
+.design-page-images img{
     width: 327px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.webdesign-images-info{
+.design-page-images-info{
     background: #FDF3F0;
     width: 327px;
     padding: 2rem 1.86875rem;
@@ -487,7 +487,7 @@ footer .header-logo{
     border-bottom-right-radius: 15px;
 }
 
-.webdesign-images-info p:nth-of-type(1){
+.design-page-images-info p:nth-of-type(1){
     margin: 0 0 1rem 0;
     color: #E7816B;
     text-align: center;
@@ -497,7 +497,7 @@ footer .header-logo{
     letter-spacing: 5px;
 }
 
-.webdesign-images-info p:nth-of-type(2){
+.design-page-images-info p:nth-of-type(2){
     margin: 0;
     color: #333136;
     text-align: center;
@@ -505,9 +505,77 @@ footer .header-logo{
     line-height: 26px;
 }
 
-.projects-webdesign{
+.projects-design-page{
     margin-top: 5rem;
     margin-bottom: -2rem;
 }
 
-/* WEB DESIGN */
+/* DESIGN PAGE */
+
+/* ABOUT US */
+
+.about{
+    position: relative;
+}
+
+.about-img{
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-intro{
+    position: relative;
+    background: #E7816B;
+    padding: 5rem 1.5rem;
+    text-align: center;
+    margin-top: -0.345rem;
+}
+
+.about-us-bg-image{
+    position: absolute;
+    top: -35%;
+    right: 0%;
+    z-index: 0;
+    width: 292px;
+}
+
+.about-us-intro h1{
+    margin: 0 0 1.5rem 0;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.about-us-intro p{
+    margin: 0;
+    color: #FFF;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.passionate-illustration{
+    -webkit-mask-image: url('../assets/home/desktop/illustration-passionate.svg');
+    mask-image: url('../assets/home/desktop/illustration-passionate.svg');
+}
+
+.resourceful-circle{
+    transform: rotate(-90deg);
+}
+
+.resourceful-illustration{
+    -webkit-mask-image: url('../assets/home/desktop/illustration-resourceful.svg');
+    mask-image: url('../assets/home/desktop/illustration-resourceful.svg');
+}
+
+.friendly-circle{
+    transform: rotate(90deg);
+}
+
+.friendly-illustration{
+    -webkit-mask-image: url('../assets/home/desktop/illustration-friendly.svg');
+    mask-image: url('../assets/home/desktop/illustration-friendly.svg');
+}
+
+/* ABOUT US */

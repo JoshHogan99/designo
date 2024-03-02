@@ -12,12 +12,12 @@ import iconRightArrow from "../assets/shared/desktop/icon-right-arrow.svg"
 
 export default function WebDesign(){
     return(
-        <div className="webdesign">
-            <div className="webdesign-intro">
+        <div className="design-page">
+            <div className="design-page-intro">
                 <img 
                     src={circle}
                     alt="background two-ovals" 
-                    className="webdesign-bg-image"
+                    className="design-page-bg-image"
                 />
 
                 <h1>Web Design</h1>
@@ -28,14 +28,14 @@ export default function WebDesign(){
                 </p>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={express}
                     alt="express website image"
-                    className="website-image"
+                    className="design-page-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>EXPRESS</p>
 
                     <p>
@@ -45,14 +45,14 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={transfer}
                     alt="transfer website image"
-                    className="website-image"
+                    className="design-page-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>TRANSFER</p>
 
                     <p>
@@ -62,14 +62,14 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={photon}
                     alt="photon website image"
-                    className="website-image"
+                    className="design-page-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>PHOTON</p>
 
                     <p>
@@ -79,14 +79,14 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={builder}
                     alt="builder website image"
-                    className="website-image"
+                    className="design-page-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>BUILDER</p>
 
                     <p>
@@ -96,14 +96,14 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={blogr}
                     alt="blogr website image"
                     className="website-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>BLOGR</p>
 
                     <p>
@@ -113,14 +113,14 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="webdesign-images">
+            <div className="design-page-images">
                 <img 
                     src={camp}
                     alt="camp website image"
-                    className="website-image"
+                    className="design-page-image"
                 />
 
-                <div className="webdesign-images-info">
+                <div className="design-page-images-info">
                     <p>CAMP</p>
 
                     <p>
@@ -130,7 +130,7 @@ export default function WebDesign(){
                 </div>
             </div>
 
-            <div className="projects projects-webdesign">
+            <div className="projects projects-design-page">
                 <div className="app-design project">
                     <p>APP DESIGN</p>
 
@@ -160,6 +160,5 @@ export default function WebDesign(){
                 </div>
             </div>
         </div>
-        
     )
 }
