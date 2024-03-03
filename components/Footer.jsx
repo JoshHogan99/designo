@@ -1,5 +1,5 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 
 import callToAction from "../assets/shared/desktop/bg-pattern-call-to-action.svg" 
 import logoLight from "../assets/shared/desktop/logo-light.png" 
@@ -10,33 +10,48 @@ import iconPinterest from "../assets/shared/desktop/icon-pinterest.svg"
 import iconInstagram from "../assets/shared/desktop/icon-instagram.svg"
  
 export default function Footer(){
+    const location = useLocation()
+
+    const locationPathname = location.pathname
+
+    const contactStyles = {
+        marginTop: "4rem"
+    }
+
     return(
-        <footer>
-            <div className="get-in-touch-container">
-                <img 
-                    src={callToAction}
-                    alt="background three-ovals" 
-                    className="get-in-touch-img"
-                />
+        <footer style={locationPathname === "/contact" ? contactStyles : null}>
+            {
+                locationPathname === "/contact" 
+                    ? 
+                        <></> 
+                    : 
+                        <div className="get-in-touch-container">
+                            <img 
+                                src={callToAction}
+                                alt="background three-ovals" 
+                                className="get-in-touch-img"
+                            />
 
-                <p>Let's talk about your project</p>
+                            <p>Let's talk about your project</p>
 
-                <p>
-                    Ready to take it to the next level? Contact us 
-                    today and find out how our expertise can help 
-                    your business grow.
-                </p>
-                
-                <NavLink to="/contact">
-                    <button className="get-in-touch-btn">GET IN TOUCH</button>
-                </NavLink>
-            </div>
+                            <p>
+                                Ready to take it to the next level? Contact us 
+                                today and find out how our expertise can help 
+                                your business grow.
+                            </p>
+                            
+                            <NavLink to="/contact">
+                                <button className="get-in-touch-btn">GET IN TOUCH</button>
+                            </NavLink>
+                        </div>
+            }
 
             <NavLink to="/">
                 <img 
                     src={logoLight}
                     alt="designo logo"
                     className="header-logo"
+                    style={locationPathname === "/contact" ? contactStyles : null}
                 /> 
             </NavLink>
 

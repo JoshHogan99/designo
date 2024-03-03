@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, NavLink } from "react-router-dom"
 
 import circle from "../assets/about/mobile/bg-pattern-hero-about-mobile.svg"
 import aboutHero from "../assets/about/mobile/image-about-hero.jpg"
@@ -22,7 +21,7 @@ export default function About(){
             <div className="about-us-intro">
                 <img 
                     src={circle}
-                    alt="background two-ovals" 
+                    alt="background oval" 
                     className="about-us-bg-image"
                 />
 
