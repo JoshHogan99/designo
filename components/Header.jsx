@@ -23,6 +23,12 @@ export default function Header(){
                     /> 
                 </NavLink>
 
+                <div className="desktop-header-navlinks">
+                    <NavLink to="/about">OUR COMPANY</NavLink>
+                    <NavLink to="/locations">LOCATIONS</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
+                </div>
+
                 <img 
                     src={
                         showNav
