@@ -8,7 +8,7 @@ import GraphicDesign from "./pages/GraphicDesign"
 import About from "./pages/About.jsx"
 import Locations from "./pages/Locations"
 import Contact from "./pages/Contact"
-import ScrollToTop from "./hooks/ScrollToTop.jsx"
+import ScrollToTop from "./components/ScrollToTop.jsx"
 
 export default function App(){
     return(
