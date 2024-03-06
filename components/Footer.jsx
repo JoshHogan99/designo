@@ -46,64 +46,70 @@ export default function Footer(){
                         </div>
             }
 
-            <NavLink to="/">
-                <img 
-                    src={logoLight}
-                    alt="designo logo"
-                    className="header-logo"
-                    style={locationPathname === "/contact" ? contactStyles : null}
-                /> 
-            </NavLink>
+            <div className="footer-navlinks-container">
+                <NavLink to="/">
+                    <img 
+                        src={logoLight}
+                        alt="designo logo"
+                        className="header-logo"
+                        style={locationPathname === "/contact" ? contactStyles : null}
+                    /> 
+                </NavLink>
 
-            <div className="divider"></div>
+                <div className="divider-one"></div>
 
-            <div className="footer-navlinks">
-                <NavLink to="/about">OUR COMPANY</NavLink>
-                <NavLink to="/locations">LOCATIONS</NavLink>
-                <NavLink to="/contact">CONTACT</NavLink>
+                <div className="footer-navlinks">
+                    <NavLink to="/about">OUR COMPANY</NavLink>
+                    <NavLink to="/locations">LOCATIONS</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
+                </div>
             </div>
 
-            <div className="company-info">
-                <span>Designo Central Office</span>
+            <div className="divider-two"></div>
 
-                <p>3886 Wellington Street</p>
+            <div className="company-info-container">
+                <div className="company-info">
+                    <span>Designo Central Office</span>
 
-                <p>Toronto, Ontario M9C 3J5</p>
-            </div>
+                    <p>3886 Wellington Street</p>
 
-            <div className="company-info">
-                <span>Contact Us (Central Office)</span>
+                    <p>Toronto, Ontario M9C 3J5</p>
+                </div>
 
-                <p>P : +1 253-863-8967</p>
+                <div className="company-info">
+                    <span>Contact Us (Central Office)</span>
 
-                <p>M : contact@designo.co</p>
-            </div>
+                    <p>P : +1 253-863-8967</p>
 
-            <div className="social-media-links">
-                <img 
-                    src={iconFacebook}
-                    alt="facebook icon"
-                />
+                    <p>M : contact@designo.co</p>
+                </div>
 
-                <img 
-                    src={iconYoutube}
-                    alt="youtube icon"
-                />
+                <div className="social-media-links">
+                    <img 
+                        src={iconFacebook}
+                        alt="facebook icon"
+                    />
 
-                <img 
-                    src={iconTwitter}
-                    alt="twitter icon"
-                />
+                    <img 
+                        src={iconYoutube}
+                        alt="youtube icon"
+                    />
 
-                <img 
-                    src={iconPinterest}
-                    alt="pinterest icon"
-                />
+                    <img 
+                        src={iconTwitter}
+                        alt="twitter icon"
+                    />
 
-                <img 
-                    src={iconInstagram}
-                    alt="instagram icon"
-                />
+                    <img 
+                        src={iconPinterest}
+                        alt="pinterest icon"
+                    />
+
+                    <img 
+                        src={iconInstagram}
+                        alt="instagram icon"
+                    />
+                </div>
             </div>
         </footer>
     )
