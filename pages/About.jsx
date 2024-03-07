@@ -1,9 +1,15 @@
 import React from "react"
 
 import circle from "../assets/about/mobile/bg-pattern-hero-about-mobile.svg"
+
 import aboutHero from "../assets/about/mobile/image-about-hero.jpg"
 import worldClassTalent from "../assets/about/mobile/image-world-class-talent.jpg"
 import realDeal from "../assets/about/mobile/image-real-deal.jpg"
+
+import aboutHeroTablet from "../assets/about/tablet/image-about-hero.jpg"
+import worldClassTalentTablet from "../assets/about/tablet/image-world-class-talent.jpg"
+import realDealTablet from "../assets/about/tablet/image-real-deal.jpg"
+
 import patternSmallCircle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
 import illustrationCanada from "../assets/shared/desktop/illustration-canada.svg"
 import illustrationAustralia from "../assets/shared/desktop/illustration-australia.svg"
@@ -16,6 +22,12 @@ export default function About(){
                 src={aboutHero}
                 alt="men at table on laptops, top down view"
                 className="about-img"
+            />
+
+            <img 
+                src={aboutHeroTablet}
+                alt="men at table on laptops, top down view"
+                className="about-img-tablet"
             />
 
             <div className="about-us-intro">
@@ -41,6 +53,12 @@ export default function About(){
                 src={worldClassTalent}
                 alt="woman staring at images on wall"
                 className="about-img"
+            />
+
+            <img 
+                src={worldClassTalentTablet}
+                alt="woman staring at images on wall"
+                className="about-img-tablet"
             />
 
             <div className="about-us-info">
@@ -137,6 +155,12 @@ export default function About(){
                 src={realDeal}
                 alt="woman staring at images on wall"
                 className="about-img"
+            />
+
+            <img 
+                src={realDealTablet}
+                alt="woman staring at images on wall"
+                className="about-img-tablet"
             />
 
             <div className="about-us-info">

@@ -458,6 +458,10 @@ footer .header-logo{
     width: 292px;
 }
 
+.design-page-bg-image-tablet{
+    display: none;
+}
+
 .design-page-intro h1{
     margin: 0 0 1.5rem 0;
     color: #FFF;
@@ -530,6 +534,10 @@ footer .header-logo{
 .about-img{
     position: relative;
     z-index: 1;
+}
+
+.about-img-tablet{
+    display: none;
 }
 
 .about-us-intro{
@@ -612,6 +620,21 @@ footer .header-logo{
 .united-kingdom-illustration{
     -webkit-mask-image: url("assets/shared/desktop/illustration-united-kingdom.svg");
     mask-image: url("assets/shared/desktop/illustration-united-kingdom.svg");
+}
+
+.about .illustrations{
+    margin-bottom: 5rem;
+}
+
+.about .illustration p,
+.contact .illustration p{
+    color: #333136;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .see-location-btn{
@@ -865,7 +888,6 @@ form ::placeholder{
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        border: 1px solid red;
     }
 
     .company-info{
@@ -873,8 +895,6 @@ form ::placeholder{
     }
 
     .social-media-links{
-        align-self: flex-end;
-        border: 1px solid blue;
         margin-bottom: 0;
     }
 
@@ -967,6 +987,119 @@ form ::placeholder{
 
     /* HOME */
 
+    /* DESIGN PAGE */
+
+    .design-page{
+        padding: 0 2.5rem;
+    }
+
+    .design-page-intro{
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 4rem 9rem;
+    }
+
+    .design-page-bg-image{
+        display: none;
+    }
+
+    .design-page-bg-image-tablet{
+        display: block;
+        position: absolute;
+        top: -65%;
+        right: -25%;
+        z-index: 0;
+    }
+
+    .design-page-intro h1{
+        font-size: 3rem;
+        line-height: 48px;
+    }
+
+    .design-page-intro p{
+        font-size: 1rem;
+        line-height: 26px;
+    }
+
+    .design-page-images{
+        flex-direction: row;
+        align-items: normal;
+    }
+
+    .design-page-images img{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .design-page-images-info{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        padding: 6.25rem 1.86875rem;
+        width: 100%;
+    }
+
+    .projects-design-page{
+        margin-top: 7.5rem;
+        margin-bottom: 0;
+    }
+
+    /* DESIGN PAGE */
+
+    /* ABOUT */
+
+    .about{
+        padding: 0 2.5rem 0 2.4375rem;
+    }
+
+    .about-img{
+        display: none;
+    }
+    
+    .about-img-tablet{
+        display: block;
+        position: relative;
+        z-index: 1;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .about-us-intro{
+        margin-bottom: 7.5rem;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .about-us-info{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; 
+    }
+
+    .about .illustrations{
+        margin-bottom: 3.875rem;
+    }
+
+    .about .illustration,
+    .contact .illustration{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .illustration img,
+    .contact .illustration img{
+        margin: 0;
+    }
+
+    .about .illustration p,
+    .contact .illustration p{
+        margin: 0;
+    }
+
+    .about .see-location-btn,
+    .contact .see-location-btn{
+        margin-bottom: 3.625rem;
+    }
+
+    /* ABOUT */
 }
 
 /* TABLET DESIGN */

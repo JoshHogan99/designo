@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 
 import circle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
+import tabletCircles from "../assets/web-design/desktop/bg-pattern-intro-web.svg"
 import science from "../assets/graphic-design/desktop/image-science.jpg"
 import boxedWater from "../assets/graphic-design/desktop/image-boxed-water.jpg"
 import change from "../assets/graphic-design/desktop/image-change.jpg"
@@ -15,6 +16,12 @@ export default function GraphicDesign(){
                     src={circle}
                     alt="background two-ovals" 
                     className="design-page-bg-image"
+                />
+
+                <img
+                    src={tabletCircles}
+                    alt="background five-ovals" 
+                    className="design-page-bg-image-tablet"
                 />
 
                 <h1>Graphic Design</h1>

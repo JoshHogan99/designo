@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 
 import circle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
+import tabletCircles from "../assets/web-design/desktop/bg-pattern-intro-web.svg"
 import airfilter from "../assets/app-design/desktop/image-airfilter.jpg"
 import eyecam from "../assets/app-design/desktop/image-eyecam.jpg"
 import faceit from "../assets/app-design/desktop/image-faceit.jpg"
@@ -17,6 +18,12 @@ export default function AppDesign(){
                     src={circle}
                     alt="background two-ovals" 
                     className="design-page-bg-image"
+                />
+
+                <img
+                    src={tabletCircles}
+                    alt="background five-ovals" 
+                    className="design-page-bg-image-tablet"
                 />
 
                 <h1>App Design</h1>

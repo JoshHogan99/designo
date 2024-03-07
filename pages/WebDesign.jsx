@@ -2,6 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 
 import circle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
+import tabletCircles from "../assets/web-design/desktop/bg-pattern-intro-web.svg"
 import express from "../assets/web-design/desktop/image-express.jpg"
 import transfer from "../assets/web-design/desktop/image-transfer.jpg"
 import photon from "../assets/web-design/desktop/image-photon.jpg"
@@ -16,8 +17,14 @@ export default function WebDesign(){
             <div className="design-page-intro">
                 <img 
                     src={circle}
-                    alt="background two-ovals" 
+                    alt="background oval" 
                     className="design-page-bg-image"
+                />
+
+                <img
+                    src={tabletCircles}
+                    alt="background five-ovals" 
+                    className="design-page-bg-image-tablet"
                 />
 
                 <h1>Web Design</h1>
