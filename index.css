@@ -658,10 +658,26 @@ footer .header-logo{
 
 /* LOCATIONS */
 
+.location-img-tablet{
+    display: none;
+}
+
 .locations-info{
+    position: relative;
     background: #FDF3F0;
     padding: 5rem 1.5rem;
     margin: -0.345rem 0 2rem;
+}
+
+.locations-bg-img{
+    position: absolute;
+    width: 292px;
+    top: 0%;
+    left: 0%;
+}
+
+.locations-bg-img-tablet{
+    display: none;
 }
 
 .locations-info:nth-of-type(3){
@@ -675,6 +691,10 @@ footer .header-logo{
     font-weight: 500;
     line-height: 36px;
     margin: 0 0 1.5rem 0;
+}
+
+.location-info-container{
+    margin-bottom: -2rem;
 }
 
 .location-info{
@@ -1100,6 +1120,126 @@ form ::placeholder{
     }
 
     /* ABOUT */
+
+    /* LOCATIONS */
+
+    .locations{
+        padding: 0 2.5rem;
+    }
+
+    .location-img{
+        display: none;
+    }
+
+    .location-img-tablet{
+        display: block;
+        margin-bottom: 2rem;
+        border-radius: 15px;
+    }
+
+    .locations-info{
+        position: relative;
+        margin-bottom: 7.5rem;
+        height: 326px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow: hidden;
+        padding-left: 4.6875rem;
+    }
+
+    .locations-bg-img{
+        display: none;
+    }
+
+    .locations-bg-img-tablet{
+        display: block;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+
+    .location-info-container{
+        display: flex;
+        width: 100%;
+    }
+
+    .locations-heading{
+        font-size: 2.5rem;
+        line-height: 48px; /* 120% */
+    }
+
+    .location-info{
+        text-align: left;
+        margin-right: 6.5rem;
+    }
+
+    .location-info span{
+        font-size: 1rem;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .location-info p{
+        font-size: 1rem;
+        line-height: 26px;
+    }
+
+    /* LOCATIONS */
+
+    /* CONTACT */
+
+    .contact{
+        padding: 0 2.5rem;
+    }
+
+    .contact-us-intro{
+        padding: 4.5rem 3.625rem;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    .contact-us-bg-image-one,
+    .contact-us-bg-image-two{
+        position: absolute;
+        top: -10%;
+        z-index: 0;
+        width: 640px;
+    }
+
+    .contact-us-bg-image-one{
+        transform: rotate(45deg);
+    }
+
+    .contact-us-bg-image-two{
+        display: none;
+    }
+
+    .contact-us-intro h1,
+    .contact-us-intro p{
+        margin: 0;
+        text-align: left;
+    }
+
+    .contact-us-intro h1{
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        line-height: 48px;
+    }
+
+    .contact-us-intro p:nth-of-type(1){
+        margin-bottom: 3rem;
+        font-size: 1rem;
+        line-height: 26px; /* 162.5% */
+    }
+
+    .contact-us-intro form button{
+        align-self: flex-end;
+        margin-top: -0.25rem;
+    }
+
+    /* CONTACT */
+
 }
 
 /* TABLET DESIGN */
