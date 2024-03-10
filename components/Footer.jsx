@@ -47,7 +47,7 @@ export default function Footer(){
             }
 
             <div className="footer-navlinks-container">
-                <NavLink to="/">
+                <NavLink to="/" className="header-logo-nav">
                     <img 
                         src={logoLight}
                         alt="designo logo"
