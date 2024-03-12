@@ -34,87 +34,89 @@ export default function AppDesign(){
                 </p>
             </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={airfilter}
-                    alt="airfilter website image"
-                    className="design-page-image"
-                />
+            <div className="design-page-images-container">
+                <div className="design-page-images">
+                    <img 
+                        src={airfilter}
+                        alt="airfilter website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>AIRFILTER</p>
+                    <div className="design-page-images-info">
+                        <p>AIRFILTER</p>
 
-                    <p>
-                        Solving the problem of poor indoor air quality 
-                        by filtering the air
-                    </p>
+                        <p>
+                            Solving the problem of poor indoor air quality 
+                            by filtering the air
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={eyecam}
-                    alt="eyecam website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={eyecam}
+                        alt="eyecam website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>EYECAM</p>
+                    <div className="design-page-images-info">
+                        <p>EYECAM</p>
 
-                    <p>
-                        Product that lets you edit your favorite photos 
-                        and videos at any time
-                    </p>
+                        <p>
+                            Product that lets you edit your favorite photos 
+                            and videos at any time
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={faceit}
-                    alt="faceit website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={faceit}
+                        alt="faceit website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>FACEIT</p>
+                    <div className="design-page-images-info">
+                        <p>FACEIT</p>
 
-                    <p>
-                        Get to meet your favorite internet 
-                        superstar with the faceit app
-                    </p>
+                        <p>
+                            Get to meet your favorite internet 
+                            superstar with the faceit app
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={todo}
-                    alt="todo website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={todo}
+                        alt="todo website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>TODO</p>
+                    <div className="design-page-images-info">
+                        <p>TODO</p>
 
-                    <p>
-                        A todo app that features cloud sync 
-                        with light and dark mode
-                    </p>
+                        <p>
+                            A todo app that features cloud sync 
+                            with light and dark mode
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={loopstudios}
-                    alt="loopstudios website image"
-                    className="website-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={loopstudios}
+                        alt="loopstudios website image"
+                        className="website-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>LOOPSTUDIOS</p>
+                    <div className="design-page-images-info">
+                        <p>LOOPSTUDIOS</p>
 
-                    <p>
-                        A VR experience app made for Loopstudios
-                    </p>
+                        <p>
+                            A VR experience app made for Loopstudios
+                        </p>
+                    </div>
                 </div>
             </div>
 

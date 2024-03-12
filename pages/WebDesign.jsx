@@ -35,105 +35,107 @@ export default function WebDesign(){
                 </p>
             </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={express}
-                    alt="express website image"
-                    className="design-page-image"
-                />
+            <div className="design-page-images-container">
+                <div className="design-page-images">
+                    <img 
+                        src={express}
+                        alt="express website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>EXPRESS</p>
+                    <div className="design-page-images-info">
+                        <p>EXPRESS</p>
 
-                    <p>
-                        A multi-carrier shipping website for 
-                        ecommerce businesses
-                    </p>
+                        <p>
+                            A multi-carrier shipping website for 
+                            ecommerce businesses
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={transfer}
-                    alt="transfer website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={transfer}
+                        alt="transfer website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>TRANSFER</p>
+                    <div className="design-page-images-info">
+                        <p>TRANSFER</p>
 
-                    <p>
-                        Site for low-cost money transfers and 
-                        sending money within seconds
-                    </p>
+                        <p>
+                            Site for low-cost money transfers and 
+                            sending money within seconds
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={photon}
-                    alt="photon website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={photon}
+                        alt="photon website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>PHOTON</p>
+                    <div className="design-page-images-info">
+                        <p>PHOTON</p>
 
-                    <p>
-                        A state-of-the-art music player with 
-                        high-resolution audio and DSP effects
-                    </p>
+                        <p>
+                            A state-of-the-art music player with 
+                            high-resolution audio and DSP effects
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={builder}
-                    alt="builder website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={builder}
+                        alt="builder website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>BUILDER</p>
+                    <div className="design-page-images-info">
+                        <p>BUILDER</p>
 
-                    <p>
-                        Connects users with local contractors based 
-                        on their location
-                    </p>
+                        <p>
+                            Connects users with local contractors based 
+                            on their location
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={blogr}
-                    alt="blogr website image"
-                    className="website-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={blogr}
+                        alt="blogr website image"
+                        className="website-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>BLOGR</p>
+                    <div className="design-page-images-info">
+                        <p>BLOGR</p>
 
-                    <p>
-                        Blogr is a platform for creating an 
-                        online blog or publication
-                    </p>
+                        <p>
+                            Blogr is a platform for creating an 
+                            online blog or publication
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="design-page-images">
-                <img 
-                    src={camp}
-                    alt="camp website image"
-                    className="design-page-image"
-                />
+                <div className="design-page-images">
+                    <img 
+                        src={camp}
+                        alt="camp website image"
+                        className="design-page-image"
+                    />
 
-                <div className="design-page-images-info">
-                    <p>CAMP</p>
+                    <div className="design-page-images-info">
+                        <p>CAMP</p>
 
-                    <p>
-                        Get expert training in coding, data, 
-                        design, and digital-marketing
-                    </p>
+                        <p>
+                            Get expert training in coding, data, 
+                            design, and digital-marketing
+                        </p>
+                    </div>
                 </div>
             </div>
 

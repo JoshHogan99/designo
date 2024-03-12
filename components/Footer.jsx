@@ -19,7 +19,10 @@ export default function Footer(){
     }
 
     return(
-        <footer style={locationPathname === "/contact" ? contactStyles : null}>
+        <footer 
+            style={locationPathname === "/contact" ? contactStyles : null}
+            className={locationPathname === "/contact" ? "contact-footer" : null}
+        >
             {
                 locationPathname === "/contact" 
                     ? 
@@ -32,13 +35,15 @@ export default function Footer(){
                                 className="get-in-touch-img"
                             />
 
-                            <p>Let's talk about your project</p>
+                            <div className="get-in-touch-p">
+                                <p>Let's talk about your project</p>
 
-                            <p>
-                                Ready to take it to the next level? Contact us 
-                                today and find out how our expertise can help 
-                                your business grow.
-                            </p>
+                                <p>
+                                    Ready to take it to the next level? Contact us 
+                                    today and find out how our expertise can help 
+                                    your business grow.
+                                </p>
+                            </div>
                             
                             <NavLink to="/contact">
                                 <button className="get-in-touch-btn">GET IN TOUCH</button>

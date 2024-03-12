@@ -10,6 +10,10 @@ import aboutHeroTablet from "../assets/about/tablet/image-about-hero.jpg"
 import worldClassTalentTablet from "../assets/about/tablet/image-world-class-talent.jpg"
 import realDealTablet from "../assets/about/tablet/image-real-deal.jpg"
 
+import aboutHeroDesktop from "../assets/about/desktop/image-about-hero.jpg"
+import worldClassTalentDesktop from "../assets/about/desktop/image-world-class-talent.jpg"
+import realDealDesktop from "../assets/about/desktop/image-real-deal.jpg"
+
 import patternSmallCircle from "../assets/shared/desktop/bg-pattern-small-circle.svg"
 import illustrationCanada from "../assets/shared/desktop/illustration-canada.svg"
 import illustrationAustralia from "../assets/shared/desktop/illustration-australia.svg"
@@ -18,69 +22,85 @@ import illustrationUnitedKingdom from "../assets/shared/desktop/illustration-uni
 export default function About(){
     return(
         <div className="about">
-            <img 
-                src={aboutHero}
-                alt="men at table on laptops, top down view"
-                className="about-img"
-            />
-
-            <img 
-                src={aboutHeroTablet}
-                alt="men at table on laptops, top down view"
-                className="about-img-tablet"
-            />
-
-            <div className="about-us-intro">
+            <div className="about-us-intro-container">
                 <img 
-                    src={circle}
-                    alt="background oval" 
-                    className="about-us-bg-image"
+                    src={aboutHero}
+                    alt="men at table on laptops, top down view"
+                    className="about-img"
                 />
 
-                <h1>About Us</h1>
+                <img 
+                    src={aboutHeroTablet}
+                    alt="men at table on laptops, top down view"
+                    className="about-img-tablet"
+                />
 
-                <p>
-                    Founded in 2010, we are a creative agency that produces lasting 
-                    results for our clients. We've partnered with many 
-                    startups, corporations, and nonprofits alike to craft designs 
-                    that make real impact. We're always looking forward to 
-                    creating brands, products, and digital experiences that 
-                    connect with our clients' audiences.
-                </p>
+                <img 
+                    src={aboutHeroDesktop}
+                    alt="men at table on laptops, top down view"
+                    className="about-img-desktop"
+                />
+
+                <div className="about-us-intro">
+                    <img 
+                        src={circle}
+                        alt="background oval" 
+                        className="about-us-bg-image"
+                    />
+
+                    <h1>About Us</h1>
+
+                    <p>
+                        Founded in 2010, we are a creative agency that produces lasting 
+                        results for our clients. We've partnered with many 
+                        startups, corporations, and nonprofits alike to craft designs 
+                        that make real impact. We're always looking forward to 
+                        creating brands, products, and digital experiences that 
+                        connect with our clients' audiences.
+                    </p>
+                </div>
             </div>
 
-            <img 
-                src={worldClassTalent}
-                alt="woman staring at images on wall"
-                className="about-img"
-            />
+            <div className="about-us-info-container">
+                <img 
+                    src={worldClassTalent}
+                    alt="woman staring at images on wall"
+                    className="about-img"
+                />
 
-            <img 
-                src={worldClassTalentTablet}
-                alt="woman staring at images on wall"
-                className="about-img-tablet"
-            />
+                <img 
+                    src={worldClassTalentTablet}
+                    alt="woman staring at images on wall"
+                    className="about-img-tablet"
+                />
 
-            <div className="about-us-info">
-                <p>World-class talent</p>
+                <img 
+                    src={worldClassTalentDesktop}
+                    alt="woman staring at images on wall"
+                    className="about-img-desktop"
+                />
 
-                <p>
-                    We are a crew of strategists, problem-solvers, 
-                    and technologists. Every design is thoughtfully 
-                    crafted from concept to launch, ensuring success 
-                    in its given market. We are constantly updating 
-                    our skills in a myriad of platforms.
-                </p>
+                <div className="about-us-info">
+                    <p>World-class talent</p>
 
-                <p>
-                    Our team is multi-disciplinary and we are not 
-                    merely interested in form — content and meaning 
-                    are just as important. We give great importance 
-                    to craftsmanship, service, and prompt delivery. 
-                    Clients have always been impressed with our 
-                    high-quality outcomes that encapsulates their 
-                    brand's story and mission.
-                </p>
+                    <p>
+                        We are a crew of strategists, problem-solvers, 
+                        and technologists. Every design is thoughtfully 
+                        crafted from concept to launch, ensuring success 
+                        in its given market. We are constantly updating 
+                        our skills in a myriad of platforms.
+                    </p>
+
+                    <p>
+                        Our team is multi-disciplinary and we are not 
+                        merely interested in form — content and meaning 
+                        are just as important. We give great importance 
+                        to craftsmanship, service, and prompt delivery. 
+                        Clients have always been impressed with our 
+                        high-quality outcomes that encapsulates their 
+                        brand's story and mission.
+                    </p>
+                </div>
             </div>
 
             <div className="illustrations">
@@ -161,6 +181,12 @@ export default function About(){
                 src={realDealTablet}
                 alt="woman staring at images on wall"
                 className="about-img-tablet"
+            />
+
+            <img 
+                src={realDealDesktop}
+                alt="woman staring at images on wall"
+                className="about-img-desktop"
             />
 
             <div className="about-us-info">
