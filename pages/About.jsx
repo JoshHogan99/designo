@@ -38,7 +38,7 @@ export default function About(){
                 <img 
                     src={aboutHeroDesktop}
                     alt="men at table on laptops, top down view"
-                    className="about-img-desktop"
+                    className="about-img-desktop right"
                 />
 
                 <div className="about-us-intro">
@@ -171,43 +171,45 @@ export default function About(){
                 </div>
             </div>
 
-            <img 
-                src={realDeal}
-                alt="woman staring at images on wall"
-                className="about-img"
-            />
+            <div className="about-us-info-container">
+                <img 
+                    src={realDeal}
+                    alt="woman staring at images on wall"
+                    className="about-img"
+                />
 
-            <img 
-                src={realDealTablet}
-                alt="woman staring at images on wall"
-                className="about-img-tablet"
-            />
+                <img 
+                    src={realDealTablet}
+                    alt="woman staring at images on wall"
+                    className="about-img-tablet"
+                />
 
-            <img 
-                src={realDealDesktop}
-                alt="woman staring at images on wall"
-                className="about-img-desktop"
-            />
+                <img 
+                    src={realDealDesktop}
+                    alt="woman staring at images on wall"
+                    className="about-img-desktop right"
+                />
 
-            <div className="about-us-info">
-                <p>The real deal</p>
+                <div className="about-us-info left">
+                    <p>The real deal</p>
 
-                <p>
-                    As strategic partners in our clients' business, 
-                    we are ready to take on any challenge as our own. 
-                    Solving real problems require empathy and 
-                    collaboration, and we strive to bring a fresh 
-                    perspective to every opportunity. We make design 
-                    and technology more accessible and give you tools 
-                    to measure success.
-                </p>
+                    <p>
+                        As strategic partners in our clients' business, 
+                        we are ready to take on any challenge as our own. 
+                        Solving real problems require empathy and 
+                        collaboration, and we strive to bring a fresh 
+                        perspective to every opportunity. We make design 
+                        and technology more accessible and give you tools 
+                        to measure success.
+                    </p>
 
-                <p>
-                    We are visual storytellers in appealing and 
-                    captivating ways. By combinining business and 
-                    marketing strategies, we inspire audiences to 
-                    take action and drive real results.
-                </p>
+                    <p>
+                        We are visual storytellers in appealing and 
+                        captivating ways. By combinining business and 
+                        marketing strategies, we inspire audiences to 
+                        take action and drive real results.
+                    </p>
+                </div>
             </div>
         </div>
     )

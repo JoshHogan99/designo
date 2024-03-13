@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
+    -webkit-user-drag: none;
     font-family: "Jost", sans-serif;
 }
 
@@ -25,6 +26,14 @@ h6,
 p{
     position: relative;
     z-index: 1;
+}
+
+img{
+    pointer-events: none;
+}
+
+.menu-icon{
+    pointer-events: all;
 }
 
 /* HEADER */
@@ -68,6 +77,16 @@ header{
     height: 235px;
     width: 100%;
     z-index: 10;
+}
+
+.header-navlinks a:hover,
+.header-navlinks a:active{
+    text-decoration-line: underline;
+}
+
+.desktop-header-navlinks a:hover,
+.desktop-header-navlinks a:active{
+    text-decoration-line: underline;
 }
 
 .page-overlay{
@@ -162,6 +181,12 @@ footer{
     z-index: 10;
 }
 
+.get-in-touch-btn:hover,
+.get-in-touch-btn:active{
+    background-color: #FFAD9B;
+    color: #fff;
+}
+
 footer .header-logo{
     margin: 0 auto 2rem;
 }
@@ -192,6 +217,11 @@ footer .header-logo{
     font-size: 0.875rem;
     line-height: 14px;
     letter-spacing: 2px;
+}
+
+.footer-navlinks a:hover,
+.footer-navlinks a:active{
+    text-decoration-line: underline;
 }
 
 .company-info{
@@ -290,6 +320,12 @@ footer .header-logo{
     cursor: pointer;
 }
 
+.learn-more-btn:hover,
+.learn-more-btn:active{
+    background-color: #FFAD9B;
+    color: #fff;
+}
+
 .home-hero-phone{
     position: absolute;
     top: 90%;
@@ -307,14 +343,21 @@ footer .header-logo{
 
 .web-design{
     background: url(assets/home/mobile/image-web-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .app-design{
     background: url(assets/home/mobile/image-app-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .graphic-design{
     background: url(assets/home/mobile/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .web-design::before,
@@ -329,6 +372,12 @@ footer .header-logo{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
     border-radius: 15px;
+}
+
+.web-design:hover::before,
+.app-design:hover::before,
+.graphic-design:hover::before{
+    background-color: rgba(231, 129, 107, 0.8);
 }
 
 .web-design > *,
@@ -511,6 +560,19 @@ footer .header-logo{
     border-bottom-right-radius: 15px;
 }
 
+.design-page-images-info:hover,
+.design-page-images-info:active{
+    background-color: #E7816B;
+    cursor: pointer;
+}
+
+.design-page-images-info:hover p:nth-of-type(1),
+.design-page-images-info:active p:nth-of-type(1),
+.design-page-images-info:hover p:nth-of-type(2),
+.design-page-images-info:active p:nth-of-type(2){
+    color: #FFF;
+}
+
 .design-page-images-info p:nth-of-type(1){
     margin: 0 0 1rem 0;
     color: #E7816B;
@@ -669,6 +731,11 @@ footer .header-logo{
     margin-bottom: 3rem;
 }
 
+.see-location-btn:hover,
+.see-location-btn:active{
+    opacity: 0.75;
+}
+
 /* ABOUT US */
 
 /* LOCATIONS */
@@ -763,6 +830,11 @@ footer .header-logo{
     transform: rotate(90deg);
 }
 
+.contact-us-info-container form{
+    position: relative;
+    z-index: 1000;
+}
+
 .contact-us-intro h1,
 .contact-us-intro p{
     margin: 0;
@@ -801,11 +873,16 @@ footer .header-logo{
 .text-area-input{
     border: none;
     border-bottom: solid 1px #fff;
-    background: #E7816B;
+    background: transparent;
     color: #FFF;
     font-family: "Jost", sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
+}
+
+.form-input:focus,
+.text-area-input:focus{
+    border-bottom: solid 3px #fff;
 }
 
 form ::placeholder{
@@ -835,6 +912,12 @@ form ::placeholder{
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+.contact-us-intro form button:hover,
+.contact-us-intro form button:active{
+    background-color: #FFAD9B;
+    color: #FFF;
 }
 
 /* CONTACT */
@@ -986,14 +1069,20 @@ form ::placeholder{
 
     .web-design{
         background: url(assets/home/tablet/image-web-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .app-design{
         background: url(assets/home/tablet/image-app-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .graphic-design{
         background: url(assets/home/tablet/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .project{
@@ -1116,6 +1205,7 @@ form ::placeholder{
         z-index: 1;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        width: 100%;
     }
 
     .about-us-intro{
@@ -1361,14 +1451,20 @@ form ::placeholder{
 
     .web-design{
         background: url(assets/home/desktop/image-web-design-large.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .app-design{
         background: url(assets/home/desktop/image-app-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .graphic-design{
         background: url(assets/home/desktop/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .project:last-child{
@@ -1499,12 +1595,14 @@ form ::placeholder{
     .about-img-desktop{
         display: block;
         height: 100%;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
     }
 
-    .about-us-intro-container .about-img-desktop{
+    .about .right{
         order: 2;
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
     }
 
     .about-us-intro{
@@ -1522,11 +1620,7 @@ form ::placeholder{
     }
 
     .about-us-intro p{
-        color: #FFF;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
+        font-size: 1rem;
         line-height: 26px; /* 162.5% */
         text-align: left;
     }
@@ -1562,6 +1656,13 @@ form ::placeholder{
         border-bottom-right-radius: 15px;
     }
 
+    .about .left{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
     .about-us-info p:nth-of-type(1),
     .about-us-info p:nth-of-type(2),
     .about-us-info p:nth-of-type(3){
@@ -1580,10 +1681,98 @@ form ::placeholder{
     }
 
     .about .illustrations{
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     /* ABOUT */
+
+    /* LOCATIONS */
+
+    .locations{
+        padding: 0 10.3125rem;
+    }
+
+    .locations-info-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 2rem 0;
+    }
+
+    .location-img{
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-radius: 15px;
+    }
+
+    .locations-right{
+        order: 2;
+    }
+
+    .location-img-tablet{
+        display: none;
+    }
+
+    .locations-info{
+        margin: 0;
+        width: 700px;
+        border-radius: 15px;
+    }
+
+    .locations-bottom{
+        margin-bottom: 10rem;
+    }
+
+    /* LOCATIONS */
+
+    /* CONTACT */
+
+    .contact{
+        padding: 0 10.3125rem;
+    }
+
+    .contact-us-intro{
+        padding: 3.5rem 6rem;
+    }
+
+    .contact-us-bg-image-one,
+    .contact-us-bg-image-two{
+        position: absolute;
+        top: -25%;
+        z-index: 0;
+    }
+
+    .contact-us-bg-image-one{
+        left: -1%;
+        transform: rotate(-150deg);
+    }
+
+    .contact-us-bg-image-two{
+        right: -32%;
+        transform: rotate(90deg);
+    }
+
+    .contact-us-info-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-us-info{
+        width: 445px;
+    }
+
+    .contact-us-info-container form{
+        width: 380px;
+    }
+
+    .contact .illustrations{
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+
+    /* CONTACT */
     
 }
 

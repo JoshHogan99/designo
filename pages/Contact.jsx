@@ -22,54 +22,58 @@ export default function Contact(){
                     className="contact-us-bg-image-two"
                 />
 
-                <h1>Contact Us</h1>
+                <div className="contact-us-info-container">
+                    <div className="contact-us-info">
+                        <h1>Contact Us</h1>
 
-                <p>
-                    Ready to take it to the next level? Let's talk about 
-                    your project or idea and find out how we can help 
-                    your business grow. If you are looking for unique 
-                    digital experiences that's relatable to your users, 
-                    drop us a line.
-                </p>
+                        <p>
+                            Ready to take it to the next level? Let's talk about 
+                            your project or idea and find out how we can help 
+                            your business grow. If you are looking for unique 
+                            digital experiences that's relatable to your users, 
+                            drop us a line.
+                        </p>
+                    </div>
 
-                <form>
-                    <input 
-                        type="text" 
-                        className="form-input" 
-                        name="full-name" 
-                        placeholder="Name" 
-                        required
-                    />
+                    <form>
+                        <input 
+                            type="text" 
+                            className="form-input" 
+                            name="full-name" 
+                            placeholder="Name" 
+                            required
+                        />
 
-                    <input 
-                        type="email" 
-                        className="form-input" 
-                        name="email" 
-                        placeholder="Email Address" 
-                        required
-                    />
+                        <input 
+                            type="email" 
+                            className="form-input" 
+                            name="email" 
+                            placeholder="Email Address" 
+                            required
+                        />
 
-                    <input 
-                        type="number" 
-                        className="form-input" 
-                        name="phone-number" 
-                        placeholder="Phone" 
-                        required
-                    />
+                        <input 
+                            type="number" 
+                            className="form-input" 
+                            name="phone-number" 
+                            placeholder="Phone" 
+                            required
+                        />
 
-                    <textarea 
-                        className="text-area-input" 
-                        name="message" 
-                        placeholder="Your Message"
-                        required 
-                    />
+                        <textarea 
+                            className="text-area-input" 
+                            name="message" 
+                            placeholder="Your Message"
+                            required 
+                        />
 
-                    <button 
-                        type="submit"
-                    >
-                        SUBMIT
-                    </button>
-                </form>
+                        <button 
+                            type="submit"
+                        >
+                            SUBMIT
+                        </button>
+                    </form>
+                </div>
             </div>
 
             <div className="illustrations">
