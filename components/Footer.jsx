@@ -93,26 +93,31 @@ export default function Footer(){
                     <img 
                         src={iconFacebook}
                         alt="facebook icon"
+                        className="social-media-img"
                     />
 
                     <img 
                         src={iconYoutube}
                         alt="youtube icon"
+                        className="social-media-img"
                     />
 
                     <img 
                         src={iconTwitter}
                         alt="twitter icon"
+                        className="social-media-img"
                     />
 
                     <img 
                         src={iconPinterest}
                         alt="pinterest icon"
+                        className="social-media-img"
                     />
 
                     <img 
                         src={iconInstagram}
                         alt="instagram icon"
+                        className="social-media-img"
                     />
                 </div>
             </div>
