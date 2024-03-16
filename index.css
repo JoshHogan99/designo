@@ -129,10 +129,8 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 0 4rem;
     padding: 4rem 1.5rem;
-    width: 327px;
-    height: 379px;
+    width: 90%;
     border-radius: 15px;
     background: #E7816B;
     background-blend-mode: multiply;
@@ -205,12 +203,16 @@ footer .header-logo{
     display: none;
 }
 
+.contact-footer{
+    padding-top: 0;
+}
+
 .footer-navlinks{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    padding: 2rem 0 2.5rem;
+    padding: 2rem 0;
 }
 
 .footer-navlinks a{
@@ -959,32 +961,28 @@ form ::placeholder{
     footer{
         padding: 10rem 2.5rem 0;
         margin-bottom: 0;
-        height: 423px;
-    }
-
-    .contact-footer{
-        height: 300px;
+        margin-top: 20.5rem;
     }
 
     .get-in-touch-container{
-        width: 90%;
-        margin-bottom: 2.5rem;
+        padding: 3.625rem 0;
         position: absolute;
-        top: -50%;
+        top: -65%;
     }
 
     .get-in-touch-container p:nth-of-type(1){
-        width: 335px;
         font-size: 2.5rem;
         line-height: 40px;
         margin-left: auto;
         margin-right: auto;
+        width: 50%;
     }
 
     .get-in-touch-container p:nth-of-type(2){
-        width: 450px;
         font-size: 1rem;
         line-height: 26px;
+        width: 75%;
+        margin: 0 auto 2rem;
     }
 
     .footer-navlinks-container{
@@ -1036,6 +1034,10 @@ form ::placeholder{
 
     .company-info{
         align-items: flex-start;
+    }
+
+    .company-info:nth-of-type(2){
+        margin-left: -10rem;
     }
 
     .social-media-links{
@@ -1390,15 +1392,17 @@ form ::placeholder{
     /* FOOTER */
 
     footer{
-        padding: 0 10.3125rem 1rem;
-        height: 393px;
+        padding: 9rem 10.3125rem 1rem;
+        margin-top: 15rem;
     }
 
     .get-in-touch-container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 6rem;
+        padding: 4.5rem 6rem;
+        width: 77.5%;
+        top: -57.5%;
     }
 
     .get-in-touch-img{
@@ -1410,12 +1414,14 @@ form ::placeholder{
     }
 
     .get-in-touch-container p:nth-of-type(1){
+        width: 35%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .get-in-touch-container p:nth-of-type(2){
         margin: 0;
+        width: 62.5%;
     }
 
     /* FOOTER */
