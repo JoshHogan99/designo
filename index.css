@@ -130,7 +130,6 @@ footer{
     justify-content: center;
     text-align: center;
     padding: 4rem 1.5rem;
-    width: 90%;
     border-radius: 15px;
     background: #E7816B;
     background-blend-mode: multiply;
@@ -1401,7 +1400,6 @@ form ::placeholder{
         flex-direction: row;
         justify-content: space-between;
         padding: 4.5rem 6rem;
-        width: 77.5%;
         top: -57.5%;
     }
 
